@@ -22,7 +22,7 @@ class DataReadingError(Exception):
 
     def __str__(self):
         if self.message:
-            return f"DataReadingError {self.message}"
+            return "DataReadingError {self.message}"
 
         return "DataReadingError"
 
